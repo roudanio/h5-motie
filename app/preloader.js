@@ -7,4 +7,8 @@ let wukong = new Wukong({
   loading: '#loading',
   progress: '.progress'
 });
-wukong.load(start);
+wukong.load([
+  {
+
+  }
+]);
