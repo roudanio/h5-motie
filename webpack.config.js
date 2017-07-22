@@ -5,7 +5,7 @@ const config = require('./config/dev');
 module.exports = {
   context: path.resolve(__dirname, './app'),
   entry: {
-    'main': './Homepage.js',
+    'main': './H5App.js',
     'preloader': './preloader.js'
   },
   output: {
