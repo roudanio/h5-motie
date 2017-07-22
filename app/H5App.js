@@ -4,6 +4,7 @@ import {load} from '../wukong/helper/loader';
 import {play} from '../wukong/helper/next';
 import * as templates from './template';
 import Homepage from './views/Homepage';
+import Nav from './views/Nav';
 import Loading from './views/Loading';
 
 /* global DEV, Router */
@@ -14,7 +15,16 @@ class H5App extends Base {
   }
 
   getKlass(name) {
-    return name === 'home' ? Homepage : false;
+    switch (name) {
+      case 'home':
+        return Homepage;
+
+      case 'nav':
+        return Nav;
+
+      default:
+        return false;
+    }
   }
 
   getTemplate(page) {
@@ -33,6 +43,10 @@ class H5App extends Base {
         homepage.classList.remove('out');
         return play(homepage, 'in');
       })
+      .then(() => {
+        let nav = this.createPage('nav');
+        document.body.appendChild(nav);
+      });
   }
 }
 
