@@ -27,6 +27,7 @@ export default class Homepage extends Base {
       self.el.removeEventListener('touchmove', onTouchMove);
       self.el.removeEventListener('touchend', onTouchEnd);
     }, false);
+    event.preventDefault();
   }
 
   onAnimationEnd(event) {
