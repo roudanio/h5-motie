@@ -1,11 +1,11 @@
 {
   "about": {
-    "style": "background-image:url({{./img/about-bg.jpg}})"
+    "style": "backgroundImage:url({{./img/about-bg.jpg}})"
   },
   "ip100": {
-    "style": "background-image:url({{./img/ip-bg.jpg}})"
+    "style": "backgroundImage:url({{./img/ip-bg.jpg}})"
   },
   "portfolio": {
-    "style": "background-image:url({{./img/ip-bg.jpg}})"
+    "style": "backgroundImage:url({{./img/ip-bg.jpg}})"
   }
 }

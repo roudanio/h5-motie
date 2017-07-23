@@ -13,7 +13,7 @@ export let nav = `
 <ul>
   <li class="animated fadeInRight"><div class="bg"></div><a href="#/about">关于磨铁</a></li> 
   <li class="animated fadeInRight"><div class="bg"></div><a href="#/ip100">公布磨铁百大IP</a></li> 
-  <li class="animated fadeInRight"><div class="bg"></div><a href="#/portfolio">公布磨铁即将启动的 电影、电视剧项目</a></li> 
+  <li class="animated fadeInRight"><div class="bg"></div><a href="#/portfolio">公布磨铁即将启动的电影、电视剧项目</a></li> 
   <li class="animated fadeInRight"><div class="bg"></div><a href="#/invitation">大会邀请函</a></li> 
 </ul>
 `;

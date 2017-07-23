@@ -5,7 +5,6 @@
     color: white;
     display: block;
     text-decoration: none;
-    font-size: 1.125rem;
     line-height: 1.66666;
     position relative
     padding: 0 1em;
@@ -19,6 +18,7 @@
     padding-left 0
 
   li
+    font-size: 1.125rem;
     list-style none
     position: relative;
 
@@ -41,7 +41,7 @@
       width 11.5em
 
     &:nth-child(3)
-      width 14em
+      width 13em
 
     &:nth-child(4)
       width 9em
@@ -49,3 +49,13 @@
     for n in 1..4
       &:nth-child({n})
         animation-delay .2s * (n - 1)
+
+    @media (min-width 360px) and (max-width 374px)
+      &
+        font-size 1.25rem
+        line-height 2
+
+    @media (min-width 375px)
+      &
+        font-size 1.35rem
+        line-height 2

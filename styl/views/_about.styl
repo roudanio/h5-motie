@@ -1,15 +1,16 @@
 #about
+  background-position-y top
   font-size 0.6875rem
 
   article
     flex 1 1
     margin-top 3rem
-    padding 0 1.5rem 1.5rem
+    padding 0 1.25em 1.5em 2em
     overflow scroll
     -webkit-overflow-scrolling touch
 
   h2
-    font-size 0.9375rem
+    font-size 1.36em
     margin 0 0 .25rem
 
   p
@@ -18,3 +19,11 @@
 
     + h2
       margin: 1em 0 .25em -.6875em;
+
+  @media (min-width 360px) and (max-width 374px)
+    &
+      font-size .75rem
+
+  @media (min-width 375px)
+    &
+      font-size .875rem
