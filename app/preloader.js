@@ -19,7 +19,9 @@ let assets = [
     './img/logo-tushu.png',
     './img/logo-wenxue.png',
     './img/logo-yule.png',
-    './img/about-bg.jpg'
+    './img/about-bg.jpg',
+    './img/ip-bg.jpg',
+    './img/invitation.jpg'
   ]
 ];
 if (!DEV) {

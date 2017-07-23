@@ -1,6 +1,15 @@
 @import "../../node_modules/animate.css/source/sliding_entrances/slideInUp.css"
 
-.container.in
+.container
   display flex
   flex-direction column
-  animation slideInUp .5s ease-in-out
+  transition all .4s
+
+  &.in
+    transform translate3d(0,0,0)
+
+  &.out
+    transform translate3d(0,100%,0)
+
+  footer
+    padding .5rem 0

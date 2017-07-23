@@ -1,11 +1,11 @@
 import $ from 'sizzle';
 import Base from '../wukong/H5App.abstract';
 import {load} from '../wukong/helper/loader';
-import {play} from '../wukong/helper/next';
 import * as templates from './template';
 import Homepage from './views/Homepage';
 import Nav from './views/Nav';
 import Loading from './views/Loading';
+import Portfolio from './views/Portfolio';
 import pageOptions from './views/pages.json';
 
 /* global DEV, Router */
@@ -22,6 +22,9 @@ class H5App extends Base {
 
       case 'nav':
         return Nav;
+
+      case 'portfoilo':
+        return Portfolio;
 
       default:
         return false;
