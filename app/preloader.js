@@ -1,10 +1,13 @@
 import Wukong from '../wukong'
 
+/* global DEV */
+
 let wukong = new Wukong({
   loading: '#loading',
   progress: '#progress'
 });
-wukong.load([
+
+let assets = [
   [
     './img/homepage.png',
     './img/logo.png',
@@ -13,6 +16,13 @@ wukong.load([
     './node_modules/animate.css/animate.min.css',
     './node_modules/hammerjs/hammer.min.js',
     './css/screen.css',
-    './dist/main.js'
+    './img/logo-tushu.png',
+    './img/logo-wenxue.png',
+    './img/logo-yule.png',
+    './img/about-bg.jpg'
   ]
-]);
+];
+if (!DEV) {
+  assets.push('./dist/main.js');
+}
+wukong.load(assets);

@@ -10,7 +10,6 @@ export default class Nav extends Base {
   body_onTransitionEnd(event) {
     if (event.target.id === 'home' && event.target.classList.contains('slideUp')) {
       this.el.classList.remove('out');
-      this.el.classList.add('in');
     }
   }
 }

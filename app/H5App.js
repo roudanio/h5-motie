@@ -6,6 +6,7 @@ import * as templates from './template';
 import Homepage from './views/Homepage';
 import Nav from './views/Nav';
 import Loading from './views/Loading';
+import pageOptions from './views/pages.json';
 
 /* global DEV, Router */
 
@@ -27,6 +28,10 @@ class H5App extends Base {
     }
   }
 
+  getPageOptions(name) {
+    return pageOptions[name];
+  }
+
   getTemplate(page) {
     return templates[page];
   }
@@ -35,13 +40,11 @@ class H5App extends Base {
     if (!DEV) {
       load('http://tajs.qq.com/stats?sId=62752451');
     }
-    let homepage = this.createPage('home');
     let loading = new Loading($('#loading')[0]);
     loading.close()
       .then(() => {
-        document.body.appendChild(homepage);
+        let homepage = this.createPage('home');
         homepage.classList.remove('out');
-        return play(homepage, 'in');
       })
       .then(() => {
         let nav = this.createPage('nav');
