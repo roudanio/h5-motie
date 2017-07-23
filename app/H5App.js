@@ -23,7 +23,7 @@ class H5App extends Base {
       case 'nav':
         return Nav;
 
-      case 'portfoilo':
+      case 'portfolio':
         return Portfolio;
 
       default:
@@ -47,7 +47,7 @@ class H5App extends Base {
     loading.close()
       .then(() => {
         let homepage = this.createPage('home');
-        homepage.classList.remove('out');
+        homepage.classList.remove('out', 'hide');
       })
       .then(() => {
         let nav = this.createPage('nav');

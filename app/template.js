@@ -64,11 +64,11 @@ export let invitation = `
 </footer>
 `;
 
-export let portfolios = `
+export let portfolio = `
 <header>
   <nav>
-    <div class="nav-item active">电影</div>
-    <div class="nav-item">电视</div>
+    <div class="nav-item active"><span>电影</span></div>
+    <div class="nav-item"><span>电视</span></div>
   </nav>
 </header>
 <div class="swiper-container">
@@ -98,5 +98,11 @@ export let portfolios = `
 沈沁源执导；由孔垂楠，刘美含，李鹤领衔主演；黄灿灿、张艺瀚特别出演。</p>
     </div>
   </div>
+  
+  <div class="swiper-button-next"></div>  
+  <div class="swiper-button-prev"></div>
 </div>
+<footer>
+<a href="#/home" class="back-button"><span>返回</span></a>
+</footer>
 `;
