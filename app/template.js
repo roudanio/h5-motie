@@ -11,10 +11,10 @@ export let home = `
 
 export let nav = `
 <ul>
-  <li class="animated fadeInRight"><div class="bg"></div><a href="#/about">关于磨铁</a></li> 
-  <li class="animated fadeInRight"><div class="bg"></div><a href="#/ip100">公布磨铁百大IP</a></li> 
-  <li class="animated fadeInRight"><div class="bg"></div><a href="#/portfolio">公布磨铁即将启动的电影、电视剧项目</a></li> 
-  <li class="animated fadeInRight"><div class="bg"></div><a href="#/invitation">大会邀请函</a></li> 
+  <li class="is-animated fadeInRight"><div class="bg"></div><span>关于磨铁</span></li> 
+  <li class="is-animated fadeInRight"><div class="bg"></div><span>公布磨铁百大IP</span></li> 
+  <li class="is-animated fadeInRight"><div class="bg"></div><span>公布磨铁即将启动的电影、电视剧项目</span></li> 
+  <li class="is-animated fadeInRight"><div class="bg"></div><span>大会邀请函</span></li> 
 </ul>
 `;
 
@@ -36,18 +36,18 @@ export let ip100 = `
 <article>
 <h2>“十大类型，百大IP”</h2>
 <ul>
-<li class="animated fadeInUp">十大主旋律正能量IP</li>
-<li class="animated fadeInUp">十大电影IP</li>
-<li class="animated fadeInUp">十大电视剧（网剧）IP</li>
-<li class="animated fadeInUp">十大古装IP</li>
-<li class="animated fadeInUp">十大现象级网络文学IP</li>
-<li class="animated fadeInUp">十大漫改IP</li>
-<li class="animated fadeInUp">十大都市IP</li>
-<li class="animated fadeInUp">十大悬疑侦探推理IP</li>
-<li class="animated fadeInUp">十大仙侠玄幻IP</li>
-<li class="animated fadeInUp">十大网络大电影IP</li>
+<li class="is-animated fadeInUp">十大主旋律正能量IP</li>
+<li class="is-animated fadeInUp">十大电影IP</li>
+<li class="is-animated fadeInUp">十大电视剧（网剧）IP</li>
+<li class="is-animated fadeInUp">十大古装IP</li>
+<li class="is-animated fadeInUp">十大现象级网络文学IP</li>
+<li class="is-animated fadeInUp">十大漫改IP</li>
+<li class="is-animated fadeInUp">十大都市IP</li>
+<li class="is-animated fadeInUp">十大悬疑侦探推理IP</li>
+<li class="is-animated fadeInUp">十大仙侠玄幻IP</li>
+<li class="is-animated fadeInUp">十大网络大电影IP</li>
 </ul>
-<p class="animated zoomInDown delay-2">磨铁开放IP大池，等您一起来游泳！</p>
+<p class="is-animated zoomInDown delay-2">磨铁开放IP大池，等您一起来游泳！</p>
 </article>
 `;
 

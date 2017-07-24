@@ -2,11 +2,10 @@ import $ from 'jquery';
 import Base from '../../wukong/View.abstract';
 
 export default class Portfolio extends Base {
-  constructor(el) {
-    super(el);
-    this.$el = $(el);
 
-    setTimeout(() => {
+  delegateEvents() {
+    this.$el = $(this.el);
+    this.$el.one('shown', () => {
       let container = this.$el.find('.swiper-container');
       let swiper = new Swiper(container, {
         slidesPerView: 'auto',
@@ -15,7 +14,8 @@ export default class Portfolio extends Base {
         prevButton: '.swiper-button-prev',
         onSlideChangeEnd: this.onSlideChangeEnd.bind(this)
       });
-    }, 100);
+      this.el.classList.add('ready');
+    });
   }
 
   onSlideChangeEnd(swiper) {

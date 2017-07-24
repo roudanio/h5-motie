@@ -7,10 +7,14 @@
   transition all .4s
   z-index 100
 
+  &.swiper-slide-active,
+  #loading&
+    visibility visible
+
   &.in
     transform translate3d(0,0,0)
 
-  &.out
+  &.out`
     transform translate3d(0,100%,0)
 
   footer

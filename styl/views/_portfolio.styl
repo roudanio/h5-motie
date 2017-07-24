@@ -4,7 +4,7 @@
   header
     background-color #2a2c3e
     color white
-    margin-top 1.875rem
+    margin-top 5vw
 
   nav
     display: flex
@@ -45,6 +45,10 @@
     flex-direction column
     justify-content: flex-start
     align-items: center
+    visibility hidden
+
+  &.ready .swiper-slide
+    visibility visible
 
   h3,p
     margin 0

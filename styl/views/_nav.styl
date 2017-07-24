@@ -1,7 +1,7 @@
 #nav
   padding 45vh 1.5em 0
 
-  a
+  span
     color: white;
     display: block;
     text-decoration: none;
@@ -21,6 +21,7 @@
     font-size: 1.125rem;
     list-style none
     position: relative;
+    display none
 
     + li
       margin-top .5em
@@ -49,6 +50,9 @@
     for n in 1..4
       &:nth-child({n})
         animation-delay .2s * (n - 1)
+
+    &.animated
+      display list-item
 
     @media (min-width 360px) and (max-width 374px)
       &

@@ -18,8 +18,9 @@
     padding 0 4em
 
   li
-    list-style none
+    display none
     font-style italic
+    list-style none
 
     + li
       margin-top .5em
@@ -28,9 +29,16 @@
       &:nth-child({n})
         animation-delay .2s * n
 
+    &.animated
+      display list-item
+
   p
+    display none
     text-align: center;
     font-size: 1.3125rem;
     transform: rotate(-3deg);
     font-style: italic;
     margin: 1em 0 0;
+
+    &.animated
+      display block
