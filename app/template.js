@@ -8,10 +8,10 @@ export let home = `
 
 export let nav = `
 <ul>
-  <li class="is-animated fadeInRight"><div class="bg"></div><span>关于磨铁</span></li> 
-  <li class="is-animated fadeInRight"><div class="bg"></div><span>公布磨铁百大IP</span></li> 
-  <li class="is-animated fadeInRight"><div class="bg"></div><span>公布磨铁即将启动的电影、电视剧项目</span></li> 
-  <li class="is-animated fadeInRight"><div class="bg"></div><span>大会邀请函</span></li> 
+  <li class="is-animated fadeInRight">关于磨铁</li> 
+  <li class="is-animated fadeInRight">公布磨铁百大IP</li> 
+  <li class="is-animated fadeInRight">公布磨铁即将启动的影视项目</li> 
+  <li class="is-animated fadeInRight">大会邀请函</li> 
 </ul>
 `;
 
