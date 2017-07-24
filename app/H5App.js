@@ -82,9 +82,16 @@ class H5App extends Base {
         new Swiper(swiper, {
           direction: 'vertical',
           onSlideChangeEnd(swiper) {
+            swiper.container.toggleClass('not-homepage', swiper.activeIndex > 0)
+              .toggleClass('no-more', swiper.activeIndex > 4)
+              .attr('data-page', swiper.activeIndex);
             $('.page').eq(swiper.activeIndex).trigger('shown');
           }
         });
+      })
+      .then(() => {
+        let arrow = $(templates.arrow);
+        document.body.appendChild(arrow[0]);
       });
   }
 }

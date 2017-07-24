@@ -1,2 +1,22 @@
 body
   line-height 1.5
+
+.arrow
+  color white
+  position fixed
+  left 0
+  bottom 0
+  width 100%
+  text-align center
+  z-index 10
+  transition .5s all
+  transform translate3d(0,-3rem,0)
+
+  .not-homepage + &
+    transform translate3d(0,0,0)
+
+  .no-more + &
+    display none
+
+  [data-page="2"] + &
+    color red
