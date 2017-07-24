@@ -10,20 +10,22 @@
 
   h2
     font-size 2rem
-    margin 1em 0
+    margin 2em 0 .5em
     text-align center
+
+    span
+      color $red
 
   ul
     margin 0
-    padding 0 4em
+    padding 0 3em 0 4em
 
   li
     display none
-    font-style italic
+    font-size 1.25rem
+    font-weight bold
+    line-height 1.75
     list-style none
-
-    + li
-      margin-top .5em
 
     for n in 1..10
       &:nth-child({n})
@@ -35,14 +37,22 @@
   p
     display none
     text-align: center;
-    font-size: 1.3125rem;
+    font-size: 1.5rem;
     transform: rotate(-3deg);
-    font-style: italic;
-    margin: 1em 0 0;
+    font-style: italic
+    font-weight 500
+    margin: .75em 0 0
+    padding-left 2.5em
+    text-indent -5em
 
     &.animated
       display block
 
-    @media (max-width 320px)
-      &
-        font-size 1.25rem
+  @media (max-width 320px)
+    &
+      h2
+        font-size 1.6875rem
+        margin 1.5em 0 .4em
+
+      p
+        margin-top .5em
