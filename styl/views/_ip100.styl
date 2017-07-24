@@ -5,12 +5,12 @@
     flex 1 1
     display flex
     flex-direction column
-    justify-content center
+    justify-content flex-start
     align-items center
 
   h2
     font-size 2rem
-    margin 0 0 1em
+    margin 1em 0
     text-align center
 
   ul
@@ -42,3 +42,7 @@
 
     &.animated
       display block
+
+    @media (max-width 320px)
+      &
+        font-size 1.25rem
