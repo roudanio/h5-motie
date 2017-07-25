@@ -29,8 +29,8 @@ export let about = `
 
 export let ip100 = `
 <article>
-<h2>“十大<span>类型</span>，百大<span>IP</span>”</h2>
-<ul>
+<h2><img src="{{./img/ip100.png}}"></h2>
+<ul style="background-image: url({{./img/frame.png}})">
 <li class="is-animated fadeInUp">十大主旋律正能量IP</li>
 <li class="is-animated fadeInUp">十大电影IP</li>
 <li class="is-animated fadeInUp">十大电视剧（网剧）IP</li>

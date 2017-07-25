@@ -3,7 +3,7 @@
     "style": "backgroundImage:url({{./img/about-bg.jpg}})"
   },
   "ip100": {
-    "style": "backgroundImage:url({{./img/ip-bg.jpg}})"
+    "style": "backgroundImage:url({{./img/ip-bg-1.jpg}})"
   },
   "portfolio": {
     "style": "backgroundImage:url({{./img/ip-bg.jpg}})"

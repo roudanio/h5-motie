@@ -28,6 +28,9 @@ let assets = [
     './img/haibao2.jpg',
     './img/haibao3.jpg',
     './img/haibao4.jpg',
+    './img/ip100.png',
+    './img/frame.png',
+    './img/ip-bg-1.jpg'
   ]
 ];
 if (!DEV) {
