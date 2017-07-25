@@ -1,4 +1,5 @@
-import Wukong from '../wukong'
+import Wukong from '../wukong';
+import Player from '../wukong/player';
 
 /* global DEV */
 
@@ -33,3 +34,4 @@ if (!DEV) {
   assets.push('./dist/main.js');
 }
 wukong.load(assets);
+new Player();

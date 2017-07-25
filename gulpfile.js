@@ -70,10 +70,15 @@ gulp.task('image', () => {
     .pipe(gulp.dest(DOCS + 'img/'));
 });
 
+gulp.task('copy', () => {
+  return gulp.src('audio/**')
+    .pipe(gulp.dest(DOCS + 'audio/'));
+})
+
 gulp.task('default', callback => {
   sequence(
     'clear',
-    ['stylus', 'webpack', 'html', 'image'],
+    ['stylus', 'webpack', 'html', 'image', 'copy'],
     callback
   );
 });
