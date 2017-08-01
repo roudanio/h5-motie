@@ -7,5 +7,8 @@
   },
   "portfolio": {
     "style": "backgroundImage:url({{./img/ip-bg.jpg}})"
+  },
+  "invitation": {
+    "style": "backgroundImage:url({{./img/invitation-bg.jpg}})"
   }
 }

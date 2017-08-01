@@ -1,14 +1,35 @@
 #invitation
+  background-position-y top
+  display flex
+
   div
-    overflow: scroll
-    -webkit-overflow-scrolling touch
+    flex 1 1
+    margin .8rem 1.25rem
+    padding .75rem 1rem .9rem
+    display flex
+    flex-direction column
+    align-items center
+    position relative
+
+    &::after
+      content ''
+      position absolute
+      top 0
+      left 0
+      width 100%
+      height 100%
+      border 5px solid white
+      mix-blend-mode soft-light
 
   img
-    width 100%
+    &:first-child
+      width 30vw
+      mix-blend-mode multiply
 
-  footer
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(255,255,255,.4)
+    &:nth-child(2)
+      width 100%
+      margin-top 1rem
+
+    &:last-child
+      width 77%
+      margin-top auto
