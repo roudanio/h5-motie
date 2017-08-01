@@ -14,7 +14,7 @@ export let nav = `
   <li class="is-animated fadeInRight">公布磨铁10X10 IP矩阵</li> 
   <li class="is-animated fadeInRight">公布磨铁100大IP</li>
   <li class="is-animated fadeInRight">宣讲磨铁重点IP</li>
-  <li class="is-animated fadeInRight">公布磨铁即将对外合作的影视项目</li>
+  <li class="is-animated fadeInRight">公布即将对外合作影视项目</li>
 </ul>
 `;
 
