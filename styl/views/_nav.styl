@@ -1,17 +1,21 @@
 #nav
-  padding 40vh 1.5em 0
+  color white
+  padding 20vh 10vw 0
+
+  h2
+    font-size 1.75rem
+    width 80vw
 
   ul
     margin 0
     padding-left 0
 
   li
-    color white
+    font-size .9375rem
     line-height 2.5rem
     position relative
-    text-indent 1em
+    text-indent .5em
     border-left 5px solid $red
-    font-size: 1.125rem;
     list-style none
     display none
 
@@ -28,7 +32,7 @@
       height 100%
       z-index -1
 
-    for n in 1..4
+    for n in 1..6
       &:nth-child({n})
         animation-delay .2s * (n - 1)
 

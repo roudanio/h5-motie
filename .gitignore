@@ -9,3 +9,4 @@ node_modules
 /css
 /dist
 tmp
+*.zip

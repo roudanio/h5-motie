@@ -7,11 +7,14 @@ export let home = `
 `;
 
 export let nav = `
+<h2>我们将在会上：</h2>
 <ul>
-  <li class="is-animated fadeInRight">关于磨铁</li> 
-  <li class="is-animated fadeInRight">公布磨铁百大IP</li> 
-  <li class="is-animated fadeInRight">公布磨铁即将启动的影视项目</li> 
-  <li class="is-animated fadeInRight">大会邀请函</li> 
+  <li class="is-animated fadeInRight">发布磨铁IP运营理念</li> 
+  <li class="is-animated fadeInRight">宣布磨铁IP开放合作态度</li> 
+  <li class="is-animated fadeInRight">公布磨铁10X10 IP矩阵</li> 
+  <li class="is-animated fadeInRight">公布磨铁100大IP</li>
+  <li class="is-animated fadeInRight">宣讲磨铁重点IP</li>
+  <li class="is-animated fadeInRight">公布磨铁即将对外合作的影视项目</li>
 </ul>
 `;
 
